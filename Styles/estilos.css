@@ -43,3 +43,19 @@ ul{
     cursor: pointer;
     transform: scale(1.2);
 }
+
+.buscar{
+    background-color: white;
+    border: 1px solid gray;
+    padding: 4px;
+    border-radius: 8px;
+}
+
+.buscar:focus-within{
+    border: 1px solid rgb(2, 61, 2);
+}
+
+.buscar > input{
+    outline: none;
+    border: 0px;
+}
