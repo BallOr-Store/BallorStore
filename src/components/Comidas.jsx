@@ -4,7 +4,7 @@ import {Link} from 'react-router-dom'
 function CardComidas (props) {
     return(
         <li className="Card">
-            <Link to='/Entrada'>
+            <Link to='/Restaurantes'>
                 <div className="contenedorImagen">
                     <img src={props.imagen} alt={props.plato}/>
                 </div>
